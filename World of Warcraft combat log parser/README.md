@@ -44,6 +44,6 @@ ORDER BY firstSeen ASC
 
 Here is the result in Log Parser Lizard:
 
-![World of Warcraft combat log parser results](World of Warcracft combat log parser.png)
+![World of Warcraft combat log parser](WorldOfWarcracftCombatLogParser.png)
 
 Note: I'm not a gamer so I don't know how to use the data. I want to see how the parser works for log file with millions of log lines so please share some sample logs if you can. Thank you. 
