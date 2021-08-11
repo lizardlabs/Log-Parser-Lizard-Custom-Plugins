@@ -10,12 +10,12 @@ SurveyGizmo Response API documentation can be found here: https://apihelp.Survey
 
 ## How to use the plugin with Log Parser Lizard:
 
-1. Doanlwas and copy ***SurveyGizmoResponseReader.vb*** (the plugin source code) to MyDocuments\LogParserLizard\Plugins folder. You can review the code for more information.
+1. Download and copy ***SurveyGizmoResponseReader.vb*** (the plugin source code) to MyDocuments\LogParserLizard\Plugins folder. You can review the code for more information.
 2. Create new query of type: "Custom Microsoft .Net Plugin"
 3. Set query properties to: 
 	- ***SourceCodeFile: SurveyGizmoResponseReader.vb*** - path of the plugin source code. Path can be changed as you need.
-	- ***DebugMode: OFF*** - turn on if you develop yor own plugin
-	- ***SimpleMode: OFF*** - since the source code conatins full class and namespaces, simple mode is OFF
+	- ***DebugMode: OFF*** - turn on if you develop your own plugin
+	- ***SimpleMode: OFF*** - since the source code contains full class and namespaces, simple mode is OFF
 	- ***ClassName: LplSurveyGizmoCustomInputPlugin*** - the main class name
 4. Write simple query to see if it works (replace the values with your own or download the data to a local file): 
 
